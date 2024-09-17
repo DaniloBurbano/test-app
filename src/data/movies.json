@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Change-Up, The",
+    "genre": "Horror",
+    "release_date": "4/7/1936",
+    "rating": 8.2,
+    "duration": 200
+  },
+  {
+    "id": 2,
+    "title": "Young Poisoner's Handbook, The",
+    "genre": "Thriller",
+    "release_date": "1/14/2001",
+    "rating": 5.5,
+    "duration": 74
+  },
+  {
+    "id": 3,
+    "title": "A Rumor Of War",
+    "genre": "Romance",
+    "release_date": "7/10/1912",
+    "rating": 3.2,
+    "duration": 116
+  },
+  {
+    "id": 4,
+    "title": "Oblivion Island: Haruka and the Magic Mirror (Hottarake no shima - Haruka to maho no kagami)",
+    "genre": "Horror",
+    "release_date": "6/30/1931",
+    "rating": 4.6,
+    "duration": 197
+  },
+  {
+    "id": 5,
+    "title": "Bright Lights",
+    "genre": "Thriller",
+    "release_date": "9/5/1979",
+    "rating": 9.2,
+    "duration": 83
+  },
+  {
+    "id": 6,
+    "title": "Budrus",
+    "genre": "Action",
+    "release_date": "7/14/1974",
+    "rating": 1.6,
+    "duration": 77
+  },
+  {
+    "id": 7,
+    "title": "Mr. Magoo",
+    "genre": "Sci-Fi",
+    "release_date": "8/17/1983",
+    "rating": 1.2,
+    "duration": 135
+  },
+  {
+    "id": 8,
+    "title": "Perfume: The Story of a Murderer",
+    "genre": "Action",
+    "release_date": "4/11/1996",
+    "rating": 7.9,
+    "duration": 95
+  },
+  {
+    "id": 9,
+    "title": "India's Daughter",
+    "genre": "Romance",
+    "release_date": "6/18/1959",
+    "rating": 2,
+    "duration": 87
+  }
+]
