@@ -32,4 +32,9 @@ export class MoviesService {
   deleteMovie(id:string){
     this.movies = this.movies.filter(movie => movie.id.toString() !== id.toString());
   }
+
+  findMoviesByUser(userId: number) {
+    const movie = this.movies.filter(movie => movie.id.toString() == userId.toString());
+    return movie;
+  }
 }

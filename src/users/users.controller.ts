@@ -8,7 +8,8 @@ export class UsersController {
     
     @Get()
     async getAllMovies() {
-        return await this.UsersService.getAllUsers();
+        //return await this.UsersService.getAllUsers();
+        return await this.UsersService.findUserMovies(1);
     }
     // constructor(private readonly em: EntityManager) {}
 
