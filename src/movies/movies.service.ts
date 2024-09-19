@@ -2,7 +2,9 @@ import { Injectable } from '@nestjs/common';
 import { Movie } from './movie.entity';
 
 import * as fs from 'fs';
-const moviesPath = "D:/test-app/src/data/movies.json";
+import * as path from 'path';
+//const moviesPath = "D:/test-app/src/data/movies.json";
+const moviesPath = path.join(__dirname, "../../src/data/movies.json");
 
 @Injectable()
 export class MoviesService {
@@ -29,6 +31,5 @@ export class MoviesService {
 
   deleteMovie(id:string){
     this.movies = this.movies.filter(movie => movie.id.toString() !== id.toString());
-    //fs.writeFileSync(moviesPath, JSON.stringify(this.movies, null, "  "));
   }
 }
